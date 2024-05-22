@@ -19,7 +19,6 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
 
@@ -77,7 +76,7 @@ class _LoginPageState extends State<LoginPage> {
                       style: TextStyle(fontSize: screenHeight * 0.02),
                       validator: (value) {
                         if (value == null || value.isEmpty) {
-                          return 'Please enter your ID';
+                          return '아이디를 입력해주세요!';
                         }
                         return null;
                       },
@@ -120,7 +119,7 @@ class _LoginPageState extends State<LoginPage> {
                       style: TextStyle(fontSize: screenHeight * 0.02),
                       validator: (value) {
                         if (value == null || value.isEmpty) {
-                          return 'Please enter your password';
+                          return '비밀번호를 입력해주세요!';
                         }
                         return null;
                       },

@@ -1,25 +1,57 @@
 <!DOCTYPE CrossStudio_Session_File>
 <session>
  <Bookmarks/>
- <Breakpoints groups="" active_group="Breakpoints"/>
+ <Breakpoints groups="Breakpoints" active_group="Breakpoints">
+  <BreakpointListItem trigger="" line="92" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="2" filename="../../../../../Documents/SEGGER Embedded Studio Projects/sdk/modules/nrfx/mdk/ses_startup_nrf52.s" useHWbreakpoint="false"/>
+  <Exceptions set="MemManage;UsageFault_Coprocessor;UsageFault_CheckingError;UsageFault_StateError;BusFault;ExceptionEntryReturnFault;HardFault"/>
+ </Breakpoints>
  <ExecutionProfileWindow/>
- <FrameBuffer/>
- <Memory1/>
- <Memory2/>
- <Memory3/>
- <Memory4/>
+ <FrameBuffer>
+  <FrameBufferWindow width="16843009" keepAspectRatio="0" zoomToFitWindow="0" addressSpace="" format="0" height="16843009" autoEvaluate="0" scaleFactor="1" refreshPeriod="0" name="HotPlaceMap_nRF_Module_Debug" addressText="" accessByDisplayWidth="0"/>
+ </FrameBuffer>
+ <Memory1>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="HotPlaceMap_nRF_Module_Debug" sizeText="" addressText=""/>
+ </Memory1>
+ <Memory2>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="HotPlaceMap_nRF_Module_Debug" sizeText="" addressText=""/>
+ </Memory2>
+ <Memory3>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="HotPlaceMap_nRF_Module_Debug" sizeText="" addressText=""/>
+ </Memory3>
+ <Memory4>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="HotPlaceMap_nRF_Module_Debug" sizeText="" addressText=""/>
+ </Memory4>
  <Project>
   <ProjectSessionItem path="HotPlaceMap_nRF_Module"/>
   <ProjectSessionItem path="HotPlaceMap_nRF_Module;HotPlaceMap_nRF_Module"/>
-  <ProjectSessionItem path="HotPlaceMap_nRF_Module;HotPlaceMap_nRF_Module;CMSIS Files"/>
+  <ProjectSessionItem path="HotPlaceMap_nRF_Module;HotPlaceMap_nRF_Module;Application"/>
+  <ProjectSessionItem path="HotPlaceMap_nRF_Module;HotPlaceMap_nRF_Module;Board Definition"/>
+  <ProjectSessionItem path="HotPlaceMap_nRF_Module;HotPlaceMap_nRF_Module;Board Support"/>
+  <ProjectSessionItem path="HotPlaceMap_nRF_Module;HotPlaceMap_nRF_Module;None"/>
+  <ProjectSessionItem path="HotPlaceMap_nRF_Module;HotPlaceMap_nRF_Module;nRF_BLE"/>
+  <ProjectSessionItem path="HotPlaceMap_nRF_Module;HotPlaceMap_nRF_Module;nRF_BLE_Services"/>
+  <ProjectSessionItem path="HotPlaceMap_nRF_Module;HotPlaceMap_nRF_Module;nRF_Drivers"/>
+  <ProjectSessionItem path="HotPlaceMap_nRF_Module;HotPlaceMap_nRF_Module;nRF_Libraries"/>
+  <ProjectSessionItem path="HotPlaceMap_nRF_Module;HotPlaceMap_nRF_Module;nRF_Log"/>
+  <ProjectSessionItem path="HotPlaceMap_nRF_Module;HotPlaceMap_nRF_Module;nRF_Segger_RTT"/>
+  <ProjectSessionItem path="HotPlaceMap_nRF_Module;HotPlaceMap_nRF_Module;nRF_SoftDevice"/>
   <ProjectSessionItem path="HotPlaceMap_nRF_Module;HotPlaceMap_nRF_Module;Script Files"/>
-  <ProjectSessionItem path="HotPlaceMap_nRF_Module;HotPlaceMap_nRF_Module;Source Files"/>
+  <ProjectSessionItem path="HotPlaceMap_nRF_Module;HotPlaceMap_nRF_Module;Segger Startup Files"/>
   <ProjectSessionItem path="HotPlaceMap_nRF_Module;HotPlaceMap_nRF_Module;System Files"/>
+  <ProjectSessionItem path="HotPlaceMap_nRF_Module;HotPlaceMap_nRF_Module;UTF8/UTF16 converter"/>
  </Project>
- <Register1/>
- <Register2/>
- <Register3/>
- <Register4/>
+ <Register1>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="HotPlaceMap_nRF_Module_Debug" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register1>
+ <Register2>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="HotPlaceMap_nRF_Module_Debug" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register2>
+ <Register3>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="HotPlaceMap_nRF_Module_Debug" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register3>
+ <Register4>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="HotPlaceMap_nRF_Module_Debug" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register4>
  <Threads>
   <ThreadsWindow showLists=""/>
  </Threads>
@@ -27,7 +59,20 @@
   <Trace enabled="Yes"/>
  </TraceWindow>
  <Watch1>
-  <Watches active="1" update="Never"/>
+  <Watches active="1" update="Never">
+   <Watchpoint expression="adv_data.p_data[0]" name="adv_data.p_data[0]" radix="-1" linenumber="0" filename="../nRF52832"/>
+   <Watchpoint expression="adv_data.p_data[1]" name="adv_data.p_data[1]" radix="-1" linenumber="0" filename="../nRF52832"/>
+   <Watchpoint expression="adv_data.p_data[2]" name="adv_data.p_data[2]" radix="-1" linenumber="0" filename="../nRF52832"/>
+   <Watchpoint expression="adv_data.p_data[3]" name="adv_data.p_data[3]" radix="-1" linenumber="0" filename="../nRF52832"/>
+   <Watchpoint expression="adv_data.p_data[4]" name="adv_data.p_data[4]" radix="-1" linenumber="0" filename="../nRF52832"/>
+   <Watchpoint expression="adv_data.p_data[5]" name="adv_data.p_data[5]" radix="-1" linenumber="0" filename="../nRF52832"/>
+   <Watchpoint expression="adv_data.p_data[6]" name="adv_data.p_data[6]" radix="-1" linenumber="0" filename="../nRF52832"/>
+   <Watchpoint expression="adv_data.p_data[7]" name="adv_data.p_data[7]" radix="-1" linenumber="0" filename="../nRF52832"/>
+   <Watchpoint expression="adv_data.p_data[8]" name="adv_data.p_data[8]" radix="-1" linenumber="0" filename="../nRF52832"/>
+   <Watchpoint expression="adv_data.p_data[9]" name="adv_data.p_data[9]" radix="-1" linenumber="0" filename="../nRF52832"/>
+   <Watchpoint expression="adv_data.p_data[10]" name="adv_data.p_data[10]" radix="-1" linenumber="0" filename="../nRF52832"/>
+   <Watchpoint expression="adv_data.p_data[11]" name="adv_data.p_data[11]" radix="-1" linenumber="0" filename="../nRF52832"/>
+  </Watches>
  </Watch1>
  <Watch2>
   <Watches active="0" update="Never"/>
@@ -38,6 +83,16 @@
  <Watch4>
   <Watches active="0" update="Never"/>
  </Watch4>
- <Files/>
- <EMStudioWindow activeProject="HotPlaceMap_nRF_Module" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="" debugSearchPath="" autoConnectCapabilities="3199"/>
+ <Files>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="390" useTextEdit="1" path="main.c" left="0" selected="1" top="365" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="sdk/components/ble/ble_services/ble_lbs_c/ble_lbs_c.h" left="0" top="60" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="2" y="37" useTextEdit="1" path="sdk/components/ble/ble_services/ble_lbs_c/ble_lbs_c.c" left="0" top="25" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="15" y="80" useTextEdit="1" path="sdk/components/libraries/util/nordic_common.h" left="0" top="58" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="25" y="925" useTextEdit="1" path="config/sdk_config.h" left="0" top="893" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="27" y="655" useTextEdit="1" path="../../../../../Documents/SEGGER Embedded Studio Projects/sdk/components/ble/common/ble_advdata.c" left="0" top="655" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="27" y="247" useTextEdit="1" path="sdk/components/ble/common/ble_advdata.h" left="0" top="236" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="11" y="117" useTextEdit="1" path="C:/Program Files/SEGGER/SEGGER Embedded Studio 8.10d/include/stdio.h" left="1" top="92" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="30" y="143" useTextEdit="1" path="sdk/components/ble/nrf_ble_scan/nrf_ble_scan.h" left="0" top="485" codecName="Default"/>
+ </Files>
+ <EMStudioWindow activeProject="HotPlaceMap_nRF_Module" fileDialogDefaultFilter="*" autoConnectTarget="J-Link" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="C:/Users/lecti/Desktop/LocalProjects/AdventureDesign24-1/IotDevice/nRF52832/sdk/components/ble/ble_services/ble_lbs_c" debugSearchPath="" autoConnectCapabilities="3711"/>
 </session>

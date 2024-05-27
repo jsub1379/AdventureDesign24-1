@@ -18,6 +18,7 @@
 "Output/Debug/Obj/HotPlaceMap_nRF_Module/nrfx_clock.o"
 "Output/Debug/Obj/HotPlaceMap_nRF_Module/nrfx_gpiote.o"
 "Output/Debug/Obj/HotPlaceMap_nRF_Module/nrfx_prs.o"
+"Output/Debug/Obj/HotPlaceMap_nRF_Module/nrfx_twis.o"
 "Output/Debug/Obj/HotPlaceMap_nRF_Module/nrfx_uart.o"
 "Output/Debug/Obj/HotPlaceMap_nRF_Module/nrfx_uarte.o"
 "Output/Debug/Obj/HotPlaceMap_nRF_Module/app_button.o"

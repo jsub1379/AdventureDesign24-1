@@ -58,7 +58,8 @@
       target_reset_script="Reset();" />
     <configuration
       Name="Debug"
-      debug_additional_load_file="$(ProjectDir)/sdk/components/softdevice/s132/hex/s132_nrf52_7.2.0_softdevice.hex" />
+      debug_additional_load_file="$(ProjectDir)/sdk/components/softdevice/s132/hex/s132_nrf52_7.2.0_softdevice.hex"
+      linker_printf_fp_enabled="Float" />
     <configuration Name="Release" debug_additional_load_file="" />
     <folder Name="Application">
       <file file_name="main.c" />
@@ -107,6 +108,10 @@
       <file file_name="../../../../../Documents/SEGGER Embedded Studio Projects/sdk/modules/nrfx/drivers/src/nrfx_clock.c" />
       <file file_name="../../../../../Documents/SEGGER Embedded Studio Projects/sdk/modules/nrfx/drivers/src/nrfx_gpiote.c" />
       <file file_name="../../../../../Documents/SEGGER Embedded Studio Projects/sdk/modules/nrfx/drivers/src/prs/nrfx_prs.c" />
+      <file file_name="../../../../../Documents/SEGGER Embedded Studio Projects/sdk/modules/nrfx/drivers/src/nrfx_twim.c">
+        <configuration Name="Debug" build_exclude_from_build="Yes" />
+      </file>
+      <file file_name="../../../../../Documents/SEGGER Embedded Studio Projects/sdk/modules/nrfx/drivers/src/nrfx_twis.c" />
       <file file_name="../../../../../Documents/SEGGER Embedded Studio Projects/sdk/modules/nrfx/drivers/src/nrfx_uart.c" />
       <file file_name="../../../../../Documents/SEGGER Embedded Studio Projects/sdk/modules/nrfx/drivers/src/nrfx_uarte.c" />
     </folder>

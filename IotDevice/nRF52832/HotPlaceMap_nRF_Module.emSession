@@ -2,7 +2,6 @@
 <session>
  <Bookmarks/>
  <Breakpoints groups="Breakpoints" active_group="Breakpoints">
-  <BreakpointListItem trigger="" line="92" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="2" filename="../../../../../Documents/SEGGER Embedded Studio Projects/sdk/modules/nrfx/mdk/ses_startup_nrf52.s" useHWbreakpoint="false"/>
   <Exceptions set="MemManage;UsageFault_Coprocessor;UsageFault_CheckingError;UsageFault_StateError;BusFault;ExceptionEntryReturnFault;HardFault"/>
  </Breakpoints>
  <ExecutionProfileWindow/>
@@ -60,18 +59,13 @@
  </TraceWindow>
  <Watch1>
   <Watches active="1" update="Never">
-   <Watchpoint expression="adv_data.p_data[0]" name="adv_data.p_data[0]" radix="-1" linenumber="0" filename="../nRF52832"/>
-   <Watchpoint expression="adv_data.p_data[1]" name="adv_data.p_data[1]" radix="-1" linenumber="0" filename="../nRF52832"/>
-   <Watchpoint expression="adv_data.p_data[2]" name="adv_data.p_data[2]" radix="-1" linenumber="0" filename="../nRF52832"/>
-   <Watchpoint expression="adv_data.p_data[3]" name="adv_data.p_data[3]" radix="-1" linenumber="0" filename="../nRF52832"/>
-   <Watchpoint expression="adv_data.p_data[4]" name="adv_data.p_data[4]" radix="-1" linenumber="0" filename="../nRF52832"/>
-   <Watchpoint expression="adv_data.p_data[5]" name="adv_data.p_data[5]" radix="-1" linenumber="0" filename="../nRF52832"/>
-   <Watchpoint expression="adv_data.p_data[6]" name="adv_data.p_data[6]" radix="-1" linenumber="0" filename="../nRF52832"/>
-   <Watchpoint expression="adv_data.p_data[7]" name="adv_data.p_data[7]" radix="-1" linenumber="0" filename="../nRF52832"/>
-   <Watchpoint expression="adv_data.p_data[8]" name="adv_data.p_data[8]" radix="-1" linenumber="0" filename="../nRF52832"/>
-   <Watchpoint expression="adv_data.p_data[9]" name="adv_data.p_data[9]" radix="-1" linenumber="0" filename="../nRF52832"/>
-   <Watchpoint expression="adv_data.p_data[10]" name="adv_data.p_data[10]" radix="-1" linenumber="0" filename="../nRF52832"/>
-   <Watchpoint expression="adv_data.p_data[11]" name="adv_data.p_data[11]" radix="-1" linenumber="0" filename="../nRF52832"/>
+   <Watchpoint expression="(uint8_t *)response[WRIDX]" name="(uint8_t *)response[WRIDX]" radix="-1" linenumber="0" filename=""/>
+   <Watchpoint expression="(uint8_t *)response[WRIDX][0]" name="(uint8_t *)response[WRIDX][0]" radix="-1" linenumber="0" filename=""/>
+   <Watchpoint expression="(uint8_t *)response[WRIDX][1]" name="(uint8_t *)response[WRIDX][1]" radix="-1" linenumber="0" filename=""/>
+   <Watchpoint expression="idx" name="idx" radix="-1" linenumber="0" filename=""/>
+   <Watchpoint expression="device_number" name="device_number" radix="-1" linenumber="0" filename=""/>
+   <Watchpoint expression="DEVICE_TO_FIND_MAX" name="DEVICE_TO_FIND_MAX" radix="-1" linenumber="0" filename=""/>
+   <Watchpoint expression="WRLEN" name="WRLEN" radix="-1" linenumber="0" filename=""/>
   </Watches>
  </Watch1>
  <Watch2>
@@ -84,15 +78,12 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="390" useTextEdit="1" path="main.c" left="0" selected="1" top="365" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="sdk/components/ble/ble_services/ble_lbs_c/ble_lbs_c.h" left="0" top="60" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="2" y="37" useTextEdit="1" path="sdk/components/ble/ble_services/ble_lbs_c/ble_lbs_c.c" left="0" top="25" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="15" y="80" useTextEdit="1" path="sdk/components/libraries/util/nordic_common.h" left="0" top="58" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="25" y="925" useTextEdit="1" path="config/sdk_config.h" left="0" top="893" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="27" y="655" useTextEdit="1" path="../../../../../Documents/SEGGER Embedded Studio Projects/sdk/components/ble/common/ble_advdata.c" left="0" top="655" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="27" y="247" useTextEdit="1" path="sdk/components/ble/common/ble_advdata.h" left="0" top="236" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="11" y="117" useTextEdit="1" path="C:/Program Files/SEGGER/SEGGER Embedded Studio 8.10d/include/stdio.h" left="1" top="92" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="30" y="143" useTextEdit="1" path="sdk/components/ble/nrf_ble_scan/nrf_ble_scan.h" left="0" top="485" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="723" useTextEdit="1" path="main.c" left="0" selected="1" top="688" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="12" y="6152" useTextEdit="1" path="config/sdk_config.h" left="0" top="6146" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="28" y="103" useTextEdit="1" path="sdk/modules/nrfx/drivers/include/nrfx_twis.h" left="0" top="88" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="11" y="1043" useTextEdit="1" path="../../../../../Documents/SEGGER Embedded Studio Projects/sdk/components/ble/nrf_ble_scan/nrf_ble_scan.c" left="0" top="1009" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="912" useTextEdit="1" path="sdk/components/softdevice/s132/headers/ble_gap.h" left="0" top="866" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="314" useTextEdit="1" path="../../../../../Documents/SEGGER Embedded Studio Projects/sdk/components/libraries/atomic/nrf_atomic.c" left="0" top="280" codecName="Default"/>
  </Files>
- <EMStudioWindow activeProject="HotPlaceMap_nRF_Module" fileDialogDefaultFilter="*" autoConnectTarget="J-Link" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="C:/Users/lecti/Desktop/LocalProjects/AdventureDesign24-1/IotDevice/nRF52832/sdk/components/ble/ble_services/ble_lbs_c" debugSearchPath="" autoConnectCapabilities="3711"/>
+ <EMStudioWindow activeProject="HotPlaceMap_nRF_Module" fileDialogDefaultFilter="*" autoConnectTarget="J-Link" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="C:/Users/lecti/Documents/SEGGER Embedded Studio Projects/sdk/modules/nrfx/drivers/src" debugSearchPath="" autoConnectCapabilities="3711"/>
 </session>

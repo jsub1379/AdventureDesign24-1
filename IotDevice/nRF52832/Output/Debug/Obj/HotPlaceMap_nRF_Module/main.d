@@ -102,4 +102,7 @@ Output/Debug/Obj/HotPlaceMap_nRF_Module/main.o: \
  sdk/components/ble/ble_services/ble_lbs_c/ble_lbs_c.h \
  sdk/components/ble/common/ble_srv_common.h \
  sdk/components/ble/nrf_ble_gatt/nrf_ble_gatt.h \
- sdk/components/ble/nrf_ble_scan/nrf_ble_scan.h
+ sdk/components/ble/nrf_ble_scan/nrf_ble_scan.h \
+ sdk/modules/nrfx/drivers/include/nrfx_twis.h \
+ sdk/modules/nrfx/hal/nrf_twis.h sdk/modules/nrfx/hal/nrf_gpio.h \
+ sdk/components/libraries/atomic/nrf_atomic.h

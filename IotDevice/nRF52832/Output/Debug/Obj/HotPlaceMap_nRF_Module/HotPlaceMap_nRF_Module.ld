@@ -15,7 +15,7 @@ SECTIONS
   __FLASH1_segment_size__ = 0x00080000;
 
   __HEAPSIZE__ = 1024;
-  __SEGGER_RTL_vfprintf = __SEGGER_RTL_vfprintf_int_nwp;
+  __SEGGER_RTL_vfprintf = __SEGGER_RTL_vfprintf_short_float_long;
   __SEGGER_RTL_vfscanf = __SEGGER_RTL_vfscanf_int;
   __STACKSIZE_PROCESS__ = 0;
   __STACKSIZE__ = 2048;

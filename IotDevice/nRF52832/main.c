@@ -22,14 +22,14 @@
 #include "nrfx_twis.h"
 #include "nrf_atomic.h"
 
-
+//#undef DEBUG
 #define CENTRAL_SCANNING_LED            BSP_BOARD_LED_0
 #define CENTRAL_CONNECTED_LED           BSP_BOARD_LED_1
 #define LEDBUTTON_LED                   BSP_BOARD_LED_2
 
 #define SCAN_INTERVAL                   0x00A0  // 100 ms
 #define SCAN_WINDOW                     0x0050  // 50 ms
-#define SCAN_DURATION                   1000  // Scanning indefinitely
+#define SCAN_DURATION                   1500  // Scanning Time
 
 #define MIN_CONNECTION_INTERVAL         MSEC_TO_UNITS(7.5, UNIT_1_25_MS)
 #define MAX_CONNECTION_INTERVAL         MSEC_TO_UNITS(30, UNIT_1_25_MS)
@@ -68,7 +68,7 @@ typedef struct
     uint8_t   manuf_buffer[BLE_GAP_ADV_SET_DATA_SIZE_MAX];
     int8_t    rssi;
 } scanned_device_t;
-//i dont need this
+
 typedef struct
 {
     uint8_t* p_data;

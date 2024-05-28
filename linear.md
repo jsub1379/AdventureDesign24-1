@@ -49,6 +49,9 @@ MSE= 1/n∑(i=1~n)(yi​−ti)^2
 이러한 방식은 데이터의 특성을 반영하여 모델의 정확도를 높이는 동시에 변수의 개수를 줄여 계산 효율성을 증가시킵니다.
 이러한 접근 방식은 모델을 단순화하고 데이터의 이해를 돕기 때문에 프로젝트에 적합하며, 실제 사용 조건에서의 성능을 개선할 수 있는 효과적인 방법입니다.
 ##### java 함수 구현 
+
+
+'''java
 import org.apache.commons.math3.stat.regression.OLSMultipleLinearRegression;
 
 public class DetailedLinearRegression {
@@ -92,7 +95,7 @@ public class DetailedLinearRegression {
         mse /= xData.length;
         return mse;
     }
-}
+}'''
 
 ## 베이지안 선형 회귀 분석
 ### 모델에 대한 설명과 예시
@@ -163,6 +166,7 @@ MCMC의 정상 상태 분포는 파라미터의 확률분포를 타겟으로 한
 이는 특정 시간대나 요일에 사람 수에 영향을 미치는 요인들을 보다 정밀하게 분석할 수 있게 해줍니다.
 
 ###예제
+'''java
 import org.apache.commons.math3.linear.*;
 
 public class BayesianLinearRegressionSimulation {
@@ -208,5 +212,5 @@ public class BayesianLinearRegressionSimulation {
         }
         System.out.println();
     }
-}
+}'''
 

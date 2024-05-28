@@ -78,7 +78,7 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="62" y="31" useTextEdit="1" path="main.c" left="0" selected="1" top="9" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="601" useTextEdit="1" path="main.c" left="0" selected="1" top="574" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="12" y="6152" useTextEdit="1" path="config/sdk_config.h" left="0" top="6146" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="28" y="103" useTextEdit="1" path="sdk/modules/nrfx/drivers/include/nrfx_twis.h" left="0" top="88" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="11" y="1043" useTextEdit="1" path="../../../../../Documents/SEGGER Embedded Studio Projects/sdk/components/ble/nrf_ble_scan/nrf_ble_scan.c" left="0" top="1009" codecName="Default"/>

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'mainPage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,6 +20,7 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
 
@@ -33,7 +35,6 @@ class _LoginPageState extends State<LoginPage> {
 
   @override
   Widget build(BuildContext context) {
-    // Get screen size
     final screenWidth = MediaQuery.of(context).size.width;
     final screenHeight = MediaQuery.of(context).size.height;
 
@@ -46,14 +47,23 @@ class _LoginPageState extends State<LoginPage> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                const Text(
-                  '핫플맵',
-                  style: TextStyle(
-                    fontSize: 32, // Adjust as needed
-                    color: Colors.black87,
-                  ),
-                ),
                 SizedBox(height: screenHeight * 0.03),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Image.asset(
+                      'assets/icon_main_4x.png',
+                      width: screenWidth * 0.2,
+                      height: screenHeight * 0.2,
+                    ),
+                    Image.asset(
+                      'assets/logo_4x.png',
+                      width: screenWidth * 0.6,
+                      height: screenHeight * 0.2,
+                    ),
+                  ],
+                ),
+                SizedBox(height: screenHeight * 0.015),
                 Stack(
                   clipBehavior: Clip.none,
                   children: [
@@ -151,12 +161,15 @@ class _LoginPageState extends State<LoginPage> {
                     ),
                     onPressed: () {
                       if (_formKey.currentState?.validate() ?? false) {
-                        // Process login
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => const MainPage()),
+                        );
                       }
                     },
                     child: Text(
                       '로그인',
-                      style: TextStyle(fontSize: screenHeight * 0.02),
+                      style: TextStyle(fontSize: screenHeight * 0.02, color:Colors.grey[200]),
                     ),
                   ),
                 ),
@@ -166,7 +179,7 @@ class _LoginPageState extends State<LoginPage> {
                   children: <Widget>[
                     TextButton(
                       onPressed: () {
-                        // Navigate to sign up
+                        // TODO: Navigate to sign up
                       },
                       child: Text(
                         '회원가입',
@@ -179,7 +192,7 @@ class _LoginPageState extends State<LoginPage> {
                     ),
                     TextButton(
                       onPressed: () {
-                        // Navigate to forgot password
+                        // TODO: Navigate to forgot password
                       },
                       child: Text(
                         '비밀번호 찾기',

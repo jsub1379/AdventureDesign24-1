@@ -13,24 +13,24 @@ class _MapSearchScreenState extends State<MapSearchScreen> {
   final TextEditingController _searchController = TextEditingController();
 
   static const CameraPosition _initialPosition = CameraPosition(
-    target: LatLng(37.42796133580664, -122.085749655962),
-    zoom: 14,
+    target: LatLng(37.558146, 127.000222),
+    zoom: 18,
   );
 
   @override
   void initState() {
     super.initState();
     SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
-        statusBarColor: Color(0xFFEF6C00),
-        statusBarBrightness: Brightness.dark
+        statusBarColor: Color(0xFFEF6C00), // Set any color you need here
+        statusBarBrightness: Brightness.dark // Dark text for status bar
     ));
   }
 
   @override
   void dispose() {
     SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
-        statusBarColor: Colors.transparent,
-        statusBarBrightness: Brightness.light
+        statusBarColor: Colors.transparent, // Optional: Reset to default
+        statusBarBrightness: Brightness.light // Optional: Reset to default
     ));
     super.dispose();
   }
@@ -52,24 +52,21 @@ class _MapSearchScreenState extends State<MapSearchScreen> {
               ),
               child: TextField(
                 controller: _searchController,
+                style:TextStyle(fontSize:screenHeight * 0.02),
                 decoration: InputDecoration(
-                  hintText: "Search here...",
+                  hintText: "주소, 건물, 장소 검색",
+                  contentPadding: EdgeInsets.symmetric(vertical: screenHeight*0.015),
                   prefixIcon: Container(
-                    width: screenHeight * 0.01,
-                    height: screenHeight * 0.01,
-                    alignment: Alignment.center, // This will help center the icon vertically
+                    width: screenHeight * 0.046,
+                    height: screenHeight * 0.046,
                     margin: EdgeInsets.only(left: screenWidth * 0.03),
-                    child: FittedBox(
-                      child: Image.asset('assets/icon_search_2x.png'),
-                      fit: BoxFit.contain, // Maintains the aspect ratio of the image
-                    ),
+                    padding: EdgeInsets.all(screenHeight * 0.007),
+                    child: Image.asset('assets/icon_search_2x.png'),
                   ),
                   border: InputBorder.none,
                   filled: true,
                   fillColor: Colors.transparent,
                 ),
-
-
               ),
             ),
           ),

@@ -21,7 +21,7 @@ version: 1.0.0+1
 environment:
   sdk: '>=3.4.0 <4.0.0'
 
-# Dependencies specify other packages that your package needs in order to work.
+# Dependencies specify other packages that your package needs in order to work.Sea
 # To automatically upgrade your package dependencies to the latest versions
 # consider running `flutter pub upgrade --major-versions`. Alternatively,
 # dependencies can be manually updated by changing the version numbers below to
@@ -30,6 +30,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  google_maps_flutter: ^2.1.1
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -62,9 +63,22 @@ flutter:
   assets:
     - assets/icon_main_4x.png
     - assets/logo_4x.png
-    - assets/icon_mapsearch_2x.png
+
+    - assets/navbar_map_deselected.png
+    - assets/navbar_map_selected.png
+    - assets/navbar_fav_deselected.png
+    - assets/navbar_fav_selected.png
+    - assets/navbar_account_deselected.png
+    - assets/navbar_account_selected.png
+
     - assets/icon_fav_on_2x.png
-    - assets/icon_user_1x.png
+    - assets/icon_fav_off_2x.png
+
+    - assets/account_boardlist.png
+    - assets/account_camera.png
+    - assets/account_terms.png
+
+    - assets/icon_search_2x.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

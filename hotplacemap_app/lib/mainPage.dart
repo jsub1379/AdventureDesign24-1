@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'MapSearchScreen.dart';
+
 class MainPage extends StatefulWidget {
   const MainPage({super.key});
 
@@ -12,10 +14,11 @@ class _MainPageState extends State<MainPage> {
   final PageController _pageController = PageController();
 
   final List<Widget> _pages = [
-    const Center(child: Text('Screen 1')),
+    const MapSearchScreen(),
     const Center(child: Text('Screen 2')),
     const Center(child: Text('Screen 3')),
   ];
+
 
   void _onItemTapped(int index) {
     setState(() {
@@ -50,15 +53,11 @@ class _MainPageState extends State<MainPage> {
                   screenHeight * 0.001
               ),
               margin: EdgeInsets.zero,
-              decoration: BoxDecoration(
-                color: _selectedIndex == 0 ? Colors.orange[100] : Colors.transparent,
-                borderRadius: BorderRadius.circular(8),
-              ),
               child: Image.asset(
-                'assets/icon_mapsearch_2x.png',
+                'assets/navbar_map_deselected.png',
                 width: screenWidth * 0.06,
                 height: screenHeight * 0.04,
-                //color: _selectedIndex == 0 ? Colors.deepOrange : null,
+                color: _selectedIndex == 0 ? const Color(0xFFEF6C00) : null,
               ),
             ),
             label: '검색',
@@ -72,15 +71,11 @@ class _MainPageState extends State<MainPage> {
                   screenHeight * 0.001
               ),
               margin: EdgeInsets.zero,
-              decoration: BoxDecoration(
-                color: _selectedIndex == 1 ? Colors.orange[100] : Colors.transparent,
-                borderRadius: BorderRadius.circular(8),
-              ),
               child: Image.asset(
-                'assets/icon_fav_on_2x.png',
+                'assets/navbar_fav_deselected.png',
                 width: screenWidth * 0.06,
                 height: screenHeight * 0.04,
-                //color: _selectedIndex == 1 ? Colors.deepOrange : null,
+                color: _selectedIndex == 1 ? const Color(0xFFEF6C00) : null,
               ),
             ),
             label: '즐겨찾기',
@@ -94,15 +89,11 @@ class _MainPageState extends State<MainPage> {
                   screenHeight * 0.001
               ),
               margin: EdgeInsets.zero,
-              decoration: BoxDecoration(
-                color: _selectedIndex == 2 ? Colors.orange[100] : Colors.transparent,
-                borderRadius: BorderRadius.circular(8),
-              ),
               child: Image.asset(
-                'assets/icon_user_1x.png',
+                'assets/navbar_account_deselected.png',
                 width: screenWidth * 0.06,
                 height: screenHeight * 0.04,
-                //color: _selectedIndex == 2 ? Colors.deepOrange : null,
+                color: _selectedIndex == 2 ? const Color(0xFFEF6C00) : null,
               ),
             ),
             label: '개인정보',

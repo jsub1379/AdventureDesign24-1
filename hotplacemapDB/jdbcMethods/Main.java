@@ -1,3 +1,4 @@
+//수정본 확인용 주석입니다. 사용시삭제
 package adventuredesign11;
 
 import java.util.ArrayList;

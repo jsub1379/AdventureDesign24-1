@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9f29ad69-9e1c-4372-ae9a-7a278abcd3a3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotplacemap/webserver/hotplacemapwebserver/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotplacemap/webserver/hotplacemapwebserver/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotplacemap/webserver/hotplacemapwebserver/dbservlets/UserAuth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotplacemap/webserver/hotplacemapwebserver/dbservlets/UserAuth.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +51,7 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "JavaScript Debug.login.html.executor": "Run",
     "Maven.HotPlaceMap-WebServer [clean,install].executor": "Run",
+    "Maven.HotPlaceMap-WebServer [clean,package].executor": "Run",
     "Maven.HotPlaceMap-WebServer [dependency:tree...].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
@@ -67,9 +67,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "com.maddyhome.idea.vim.ui.VimEmulationConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
@@ -83,6 +83,7 @@
     <option name="myCommands">
       <command value="mvn dependency:tree -Dverbose" />
       <command value="mvn clean install" />
+      <command value="mvn clean package" />
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.HotPlaceMapWebServerApplication">
@@ -197,6 +198,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/hotplacemap/webserver/hotplacemapwebserver/dbservlets/buildings/NewBuildingController.java</url>
           <line>23</line>
           <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hotplacemap/webserver/hotplacemapwebserver/dbservlets/UserAuth.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="37" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

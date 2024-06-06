@@ -5,6 +5,8 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
+import java.util.Optional;
+
 @Service
 public class RegistrationService {
 
@@ -36,5 +38,30 @@ public class RegistrationService {
         user.setIsAdmin(false);
 
         userRepository.save(user);
+    }
+
+    public void updateUser(String username, String name, String password) {
+        Optional<User> optionalUser = userRepository.findByUsername(username);
+        if (optionalUser.isPresent()) {
+            User user = optionalUser.get();
+            if (StringUtils.hasText(name)) {
+                user.setName(name);
+            }
+            if (StringUtils.hasText(password)) {
+                user.setPassword(passwordEncoder.encode(password));
+            }
+            userRepository.save(user);
+        } else {
+            throw new IllegalArgumentException("사용자를 찾을 수 없습니다!");
+        }
+    }
+
+    public void deleteUser(String username) {
+        Optional<User> optionalUser = userRepository.findByUsername(username);
+        if (optionalUser.isPresent()) {
+            userRepository.delete(optionalUser.get());
+        } else {
+            throw new IllegalArgumentException("사용자를 찾을 수 없습니다!");
+        }
     }
 }

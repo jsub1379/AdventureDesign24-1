@@ -6,9 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="9f29ad69-9e1c-4372-ae9a-7a278abcd3a3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotplacemap/webserver/hotplacemapwebserver/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotplacemap/webserver/hotplacemapwebserver/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotplacemap/webserver/hotplacemapwebserver/JwtLogoutHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotplacemap/webserver/hotplacemapwebserver/JwtLogoutHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotplacemap/webserver/hotplacemapwebserver/RegistrationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotplacemap/webserver/hotplacemapwebserver/RegistrationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hotplacemap/webserver/hotplacemapwebserver/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotplacemap/webserver/hotplacemapwebserver/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +60,7 @@
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.HotPlaceMapWebServerApplication.executor": "Run",
+    "Spring Boot.HotPlaceMapWebServerApplication.executor": "Debug",
     "git-widget-placeholder": "feature/web-server",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/codehotel/projects/AdvSpring/AdventureDesign24-1/HotPlaceMap-WebServer/apache-maven-3.8.1",
@@ -124,11 +125,57 @@
       <workItem from="1717531061479" duration="2471000" />
       <workItem from="1717654645182" duration="323000" />
       <workItem from="1717655112130" duration="6256000" />
-      <workItem from="1717661640278" duration="3834000" />
+      <workItem from="1717661640278" duration="5551000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hotplacemap/webserver/hotplacemapwebserver/AuthController.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hotplacemap/webserver/hotplacemapwebserver/AuthController.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hotplacemap/webserver/hotplacemapwebserver/AuthController.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hotplacemap/webserver/hotplacemapwebserver/AuthController.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hotplacemap/webserver/hotplacemapwebserver/AuthController.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hotplacemap/webserver/hotplacemapwebserver/AuthController.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hotplacemap/webserver/hotplacemapwebserver/JwtLogoutHandler.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hotplacemap/webserver/hotplacemapwebserver/JwtLogoutHandler.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

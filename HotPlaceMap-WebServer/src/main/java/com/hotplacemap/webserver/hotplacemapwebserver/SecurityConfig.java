@@ -59,7 +59,7 @@ public class SecurityConfig {
     public UserDetailsService userDetailsService(UserRepository userRepository) {
         return username -> {
             com.hotplacemap.webserver.hotplacemapwebserver.User user = userRepository.findByUsername(username)
-                    .orElseThrow(() -> new UsernameNotFoundException("User not found: " + username));
+                    .orElseThrow(() -> new UsernameNotFoundException("사용자 " + username + " 를 찾을 수 없습니다"));
             return new org.springframework.security.core.userdetails.User(
                     user.getUsername(),
                     user.getPassword(),

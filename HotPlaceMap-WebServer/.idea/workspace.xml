@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f29ad69-9e1c-4372-ae9a-7a278abcd3a3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotplacemap/webserver/hotplacemapwebserver/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotplacemap/webserver/hotplacemapwebserver/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +18,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -34,6 +33,9 @@
         <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -50,12 +52,14 @@
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
     "JavaScript Debug.login.html.executor": "Run",
+    "Maven.HotPlaceMap-WebServer [clean,install].executor": "Run",
+    "Maven.HotPlaceMap-WebServer [dependency:tree...].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.HotPlaceMapWebServerApplication.executor": "Debug",
+    "Spring Boot.HotPlaceMapWebServerApplication.executor": "Run",
     "git-widget-placeholder": "feature/web-server",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/codehotel/projects/AdvSpring/AdventureDesign24-1/HotPlaceMap-WebServer/apache-maven-3.8.1",
@@ -71,6 +75,17 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.hotplacemap.webserver.hotplacemapwebserver" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn dependency:tree -Dverbose" />
+      <command value="mvn clean install" />
+    </option>
+  </component>
   <component name="RunManager" selected="Spring Boot.HotPlaceMapWebServerApplication">
     <configuration name="login.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/HotPlaceMap-WebServer/HotPlaceMap-WebServer/src/main/resources/static/login.html" useBuiltInWebServerPort="true">
       <method v="2" />
@@ -106,6 +121,10 @@
       <updated>1717282826978</updated>
       <workItem from="1717282828137" duration="6282000" />
       <workItem from="1717291289985" duration="3640000" />
+      <workItem from="1717531061479" duration="2471000" />
+      <workItem from="1717654645182" duration="323000" />
+      <workItem from="1717655112130" duration="6256000" />
+      <workItem from="1717661640278" duration="3834000" />
     </task>
     <servers />
   </component>

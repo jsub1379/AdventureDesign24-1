@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9f29ad69-9e1c-4372-ae9a-7a278abcd3a3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotplacemap/webserver/hotplacemapwebserver/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotplacemap/webserver/hotplacemapwebserver/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotplacemap/webserver/hotplacemapwebserver/JwtLogoutHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotplacemap/webserver/hotplacemapwebserver/JwtLogoutHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotplacemap/webserver/hotplacemapwebserver/RegistrationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotplacemap/webserver/hotplacemapwebserver/RegistrationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hotplacemap/webserver/hotplacemapwebserver/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotplacemap/webserver/hotplacemapwebserver/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,14 +164,39 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/hotplacemap/webserver/hotplacemapwebserver/JwtLogoutHandler.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="9" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/hotplacemap/webserver/hotplacemapwebserver/CustomErrorController.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/hotplacemap/webserver/hotplacemapwebserver/JwtLogoutHandler.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="10" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/hotplacemap/webserver/hotplacemapwebserver/CustomErrorController.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hotplacemap/webserver/hotplacemapwebserver/dbservlets/buildings/NewBuildingController.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hotplacemap/webserver/hotplacemapwebserver/dbservlets/buildings/NewBuildingController.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hotplacemap/webserver/hotplacemapwebserver/dbservlets/buildings/NewBuildingController.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hotplacemap/webserver/hotplacemapwebserver/dbservlets/buildings/NewBuildingController.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hotplacemap/webserver/hotplacemapwebserver/dbservlets/buildings/NewBuildingController.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

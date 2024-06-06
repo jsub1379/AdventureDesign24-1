@@ -22,7 +22,9 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
+import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 import java.util.Optional;
 
 @Configuration
@@ -31,12 +33,13 @@ public class SecurityConfig {
 
     private static final Logger logger = LoggerFactory.getLogger(SecurityConfig.class);
 
+
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http, AuthenticationManager authManager, JwtUtil jwtUtil, UserDetailsService userDetailsService) throws Exception {
         http
-                .csrf().disable()
-                .authorizeHttpRequests(auth -> auth
-                        .requestMatchers("/login.html", "/register", "/success.html", "/failure.html", "/css/**", "/js/**").permitAll()
+                .cors().and().csrf().disable()
+                .authorizeRequests(auth -> auth
+                        .requestMatchers("/login.html", "/buildings/new", "/register", "/success.html", "/failure.html", "/css/**", "/js/**", "/error").permitAll()
                         .anyRequest().authenticated())
                 .logout(logout -> logout
                         .logoutUrl("/logout")
@@ -46,7 +49,6 @@ public class SecurityConfig {
                         .deleteCookies("JSESSIONID"))
                 .addFilter(new JwtAuthenticationFilter(authManager, jwtUtil))
                 .addFilterBefore(new JwtAuthorizationFilter(jwtUtil, userDetailsService), UsernamePasswordAuthenticationFilter.class);
-
         return http.build();
     }
 
@@ -60,12 +62,18 @@ public class SecurityConfig {
         return username -> {
             com.hotplacemap.webserver.hotplacemapwebserver.User user = userRepository.findByUsername(username)
                     .orElseThrow(() -> new UsernameNotFoundException("사용자 " + username + " 를 찾을 수 없습니다"));
+            List<SimpleGrantedAuthority> roles = new ArrayList<>();
+            roles.add(new SimpleGrantedAuthority("ROLE_USER"));
+            if (user.getIsAdmin()) {
+                roles.add(new SimpleGrantedAuthority("ROLE_ADMIN"));
+            }
             return new org.springframework.security.core.userdetails.User(
                     user.getUsername(),
                     user.getPassword(),
-                    Collections.singletonList(new SimpleGrantedAuthority("ROLE_USER"))); // Adjust roles as necessary
+                    roles);
         };
     }
+
 
     @Bean
     public JwtUtil jwtUtil() {

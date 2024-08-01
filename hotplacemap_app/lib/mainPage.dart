@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
+import 'AccountScreen.dart';
 import 'MapSearchScreen.dart';
+import 'FavListScreen.dart';
 
 class MainPage extends StatefulWidget {
   const MainPage({super.key});
@@ -15,8 +17,8 @@ class _MainPageState extends State<MainPage> {
 
   final List<Widget> _pages = [
     const MapSearchScreen(),
-    const Center(child: Text('Screen 2')),
-    const Center(child: Text('Screen 3')),
+    const FavListScreen(),
+    const AccountScreen(),
   ];
 
 
